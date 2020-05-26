@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@css/modena_dark.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.javafx.UserRegisterNewAccountController">
+   <children>
+      <Button fx:id="backToUserLoginButton" mnemonicParsing="false" onAction="#backToUserLoginButtonClicked" text="Back">
+         <VBox.margin>
+            <Insets bottom="95.0" />
+         </VBox.margin>
+      </Button>
+      <Label text="Enter Username:" />
+      <TextField fx:id="enterUsernameTextField">
+         <VBox.margin>
+            <Insets bottom="50.0" />
+         </VBox.margin>
+      </TextField>
+      <Label text="Enter Password:" />
+      <PasswordField fx:id="enterPasswordTextField">
+         <VBox.margin>
+            <Insets bottom="50.0" />
+         </VBox.margin>
+      </PasswordField>
+      <Label text="Confirm Password:" />
+      <PasswordField fx:id="confirmPasswordTextField">
+         <VBox.margin>
+            <Insets bottom="5.0" />
+         </VBox.margin>
+      </PasswordField>
+      <Button fx:id="submitNewUserRegistrationButton" mnemonicParsing="false" onAction="#setSubmitNewUserRegistrationButtonClicked" text="Submit" />
+   </children>
+   <padding>
+      <Insets bottom="100.0" left="100.0" right="100.0" top="5.0" />
+   </padding>
+</VBox>

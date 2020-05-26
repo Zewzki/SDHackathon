@@ -1,0 +1,7 @@
+Attempting connection @ 2019-12-13T16:14:52.778370100
+Connected to: 127.0.0.1 @ 2019-12-13T16:14:52.784751400
+Got I/O streams @ 2019-12-13T16:14:52.792193300
+Wrote: SELECT friends from userInfo where username like 'newUser' @ 2019-12-13T16:14:52.798178200
+Received: [[]] @ 2019-12-13T16:14:52.815180200
+Wrote: TERMINATE @ 2019-12-13T16:14:52.821142900
+Closing connection @ 2019-12-13T16:14:52.828097400
